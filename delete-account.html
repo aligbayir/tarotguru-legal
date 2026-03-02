@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TarotGuru | Hesap Silme</title>
+    <style>
+      :root {
+        --bg: #0f051d;
+        --bg-deep: #06020f;
+        --card: #1a0d2b;
+        --danger: #ff7a7a;
+        --accent: #ffd700;
+        --text: #f3ecff;
+        --muted: #c3b7d8;
+        --border: #5d3648;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        background:
+          radial-gradient(1000px 500px at 85% -20%, rgba(255, 122, 122, 0.16), transparent 60%),
+          radial-gradient(900px 500px at -10% 120%, rgba(106, 74, 179, 0.2), transparent 60%),
+          linear-gradient(160deg, var(--bg) 0%, var(--bg-deep) 100%);
+        font-family: "Lato", "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+      .wrap { max-width: 900px; margin: 0 auto; padding: 24px; }
+      .card {
+        background: linear-gradient(180deg, rgba(42, 19, 32, 0.9), rgba(26, 13, 43, 0.95));
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 24px;
+        box-shadow: 0 16px 50px rgba(0, 0, 0, 0.35);
+      }
+      h1, h2 { font-family: "Cinzel", Georgia, serif; margin: 0 0 10px; }
+      h1 { font-size: 30px; color: var(--danger); }
+      h2 { font-size: 18px; margin-top: 20px; }
+      p, li { color: var(--muted); }
+      .meta { font-size: 13px; margin-bottom: 16px; }
+      .danger-box {
+        margin-top: 16px;
+        border: 1px solid rgba(255, 122, 122, 0.5);
+        background: rgba(255, 122, 122, 0.08);
+        border-radius: 12px;
+        padding: 14px;
+      }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .nav {
+        margin-top: 22px;
+        border-top: 1px solid rgba(59, 42, 86, 0.85);
+        padding-top: 14px;
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <h1>Hesap Silme ve Veri Silme</h1>
+        <p class="meta">Son guncelleme: 2 Mart 2026</p>
+        <p>TarotGuru hesabinizi ve iliskili verilerinizi silmek icin asagidaki adimlari izleyebilirsiniz.</p>
+
+        <h2>1. Uygulama Uzerinden Talep</h2>
+        <ul>
+          <li>Uygulamada <strong>Ayarlar &gt; Hesabimi Sil / Verilerimi Temizle</strong> adimina gidin.</li>
+          <li>Talebi onayladiginizda silme istegi backend tarafina iletilir.</li>
+        </ul>
+
+        <h2>2. E-posta ile Talep</h2>
+        <p>E-posta ile talep icin: <a href="mailto:a.bayrgorkem@gmail.com">a.bayrgorkem@gmail.com</a></p>
+        <p>Konu satiri onerisi: <strong>Hesap Silme Talebi</strong></p>
+
+        <h2>3. Neler Silinir?</h2>
+        <ul>
+          <li>Hesap kaydi (e-posta ve kimlik bilgileri)</li>
+          <li>Tarot okuma gecmisi ve iliskili uygulama verileri</li>
+          <li>Oturum/yenileme token verileri</li>
+        </ul>
+
+        <div class="danger-box">
+          <strong>Onemli:</strong> Silme islemi geri alinmayabilir. Hesabiniz silindiginde ayni veriler geri yuklenemeyebilir.
+        </div>
+
+        <h2>4. Islem Suresi</h2>
+        <p>Talep durumuna gore silme islemleri makul sure icinde tamamlanir.</p>
+
+        <nav class="nav">
+          <a href="./privacy-policy.html">Gizlilik Politikasi</a>
+          <a href="./user-agreement.html">Kullanici Sozlesmesi</a>
+        </nav>
+      </section>
+    </main>
+  </body>
+</html>
