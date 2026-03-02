@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TarotGuru | Kullanici Sozlesmesi</title>
+    <style>
+      :root {
+        --bg: #0f051d;
+        --bg-deep: #06020f;
+        --card: #1a0d2b;
+        --card-soft: #24123a;
+        --accent: #ffd700;
+        --text: #f3ecff;
+        --muted: #c3b7d8;
+        --border: #3b2a56;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--text);
+        background:
+          radial-gradient(1200px 600px at 85% -20%, rgba(255, 215, 0, 0.12), transparent 60%),
+          radial-gradient(900px 500px at -10% 120%, rgba(106, 74, 179, 0.2), transparent 60%),
+          linear-gradient(160deg, var(--bg) 0%, var(--bg-deep) 100%);
+        font-family: "Lato", "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+      .wrap { max-width: 900px; margin: 0 auto; padding: 24px; }
+      .card {
+        background: linear-gradient(180deg, rgba(36, 18, 58, 0.85), rgba(26, 13, 43, 0.92));
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 24px;
+        box-shadow: 0 16px 50px rgba(0, 0, 0, 0.35);
+      }
+      h1, h2 { font-family: "Cinzel", Georgia, serif; margin: 0 0 10px; }
+      h1 { font-size: 30px; color: var(--accent); }
+      h2 { font-size: 18px; margin-top: 20px; }
+      p, li { color: var(--muted); }
+      .meta { font-size: 13px; margin-bottom: 16px; }
+      a { color: var(--accent); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      .nav {
+        margin-top: 22px;
+        border-top: 1px solid var(--border);
+        padding-top: 14px;
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <h1>Kullanici Sozlesmesi</h1>
+        <p class="meta">Son guncelleme: 2 Mart 2026</p>
+        <p>Bu sozlesme, TarotGuru uygulamasini kullanan tum kullanicilar icin gecerlidir. Uygulamayi kullanarak bu kosullari kabul etmis olursunuz.</p>
+
+        <h2>1. Hizmet Kapsami</h2>
+        <p>TarotGuru; tarot ve gunluk yorumlar sunar. Icerikler eglence ve genel bilgilendirme amaclidir.</p>
+
+        <h2>2. Kullanici Yukumlulukleri</h2>
+        <ul>
+          <li>Hesap bilgilerinizin guvenliginden siz sorumlusunuz.</li>
+          <li>Hizmeti kotuye kullanmamak ve mevzuata uygun davranmak zorundasiniz.</li>
+          <li>Yaniltici, zararli veya hukuka aykiri icerik girmemelisiniz.</li>
+        </ul>
+
+        <h2>3. Yas Siniri</h2>
+        <p>Uygulamayi kullanmak icin yasadiginiz ulkedeki ilgili yas sinirini karsilamaniz gerekir.</p>
+
+        <h2>4. Fikri Mulkiyet</h2>
+        <p>Uygulama icerikleri, tasarimlari ve markalari TarotGuru’ya aittir. Izinsiz kopyalanamaz veya dagitilamaz.</p>
+
+        <h2>5. Sorumlulugun Sinirlandirilmasi</h2>
+        <p>Hizmet “oldugu gibi” sunulur. Uygulama iceriklerine dayanarak alinan kararlardan kullanici sorumludur.</p>
+
+        <h2>6. Sozlesme Degisiklikleri</h2>
+        <p>Gerektiginde kosullar guncellenebilir. Guncel metin bu sayfada yayinlanir.</p>
+
+        <h2>7. Iletisim</h2>
+        <p>Sorulariniz icin: <a href="mailto:a.bayrgorkem@gmail.com">a.bayrgorkem@gmail.com</a></p>
+
+        <nav class="nav">
+          <a href="./privacy-policy.html">Gizlilik Politikasi</a>
+          <a href="./delete-account.html">Hesap Silme</a>
+        </nav>
+      </section>
+    </main>
+  </body>
+</html>
